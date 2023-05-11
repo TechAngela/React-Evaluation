@@ -3,6 +3,7 @@ import Boddy from "./Boddy"
 import './Card.css'
 
 function Card(props) {
+
   return (
      <div className="parent">
           <div className="logo">
@@ -16,7 +17,8 @@ function Card(props) {
                          props.header.map((item , index)=>{
                               return (
                               <Boddy
-                               txt={item} 
+                               txt={item.name} 
+                               bg={item.bgcolor}
                                key={index}/>
                          )})
                     }

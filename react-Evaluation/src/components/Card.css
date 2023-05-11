@@ -17,3 +17,9 @@
      display: flex;
      justify-content: space-between;
 }
+.darkbackground{
+     background-color: darkblue;
+}
+.bluebackground{
+     background-color: #0d6efd;
+}

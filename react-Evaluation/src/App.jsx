@@ -13,7 +13,7 @@ function App() {
   const contract = "Full time"
   const labels = ["Frontend", "seniour", "html", "css" , "javascript"]
   const label = ["Frontend", "seniour"]
-  const header =["NEW" , "FEATURED"]
+  const header =[{name:"NEW",bgcolor:"bluebackground"} , {name:"FEATURED", bgcolor:"darkbackground"}]
   const heade =["NEW"]
 
   const cards =[
@@ -66,14 +66,6 @@ function App() {
         })
       }
      
-      {/* <Card
-        src = {img3}
-        company = "Photosnap"
-        header = {header}
-        position =" Senior Frontend Developer"
-        contract={contract}
-        labels={labels}
-      /> */}
      </div>
     </>
   )

@@ -3,7 +3,7 @@
 function Boddy(props) {
   return (
      <div>
-     <button>{props.txt}</button>
+     <button className={props.bg}>{props.txt}</button>
          </div>
   )
 }
