@@ -1,0 +1,19 @@
+.parent{
+     display: flex;
+}
+.Right{
+     display: flex;
+     position: absolute;
+     right: 0;
+}
+.labels{
+     display: flex;
+}
+.bot{
+     display: flex;
+     justify-content: space-between;
+}
+.top{
+     display: flex;
+     justify-content: space-between;
+}
